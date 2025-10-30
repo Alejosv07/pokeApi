@@ -1,59 +1,90 @@
-# Pokemon
+# 🔴 Pokémon 3D Viewer | PokeApi + Three.js
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+Una aplicación web moderna y reactiva construida con **Angular** que permite a los usuarios **visualizar modelos 3D** de sus Pokémon favoritos. La aplicación utiliza **Three.js** para el *renderizado* tridimensional y consume la API de Pokémon (PokeAPI) para obtener datos e imágenes.
 
-## Development server
+## 🚀 Demo en Vivo
 
-To start a local development server, run:
+Puedes explorar la aplicación directamente en línea. ¡Visualiza a los Pokémon en 3D hoy mismo!
 
-```bash
-ng serve
-```
+🔗 **Visita la aplicación:** [https://alejosv07.github.io/pokeApi/](https://alejosv07.github.io/pokeApi/)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ✨ Características Principales
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* **Visualización 3D:** Renderizado de modelos 3D de Pokémon usando **Three.js**.
+* **Búsqueda Rápida:** Funcionalidad para buscar y cargar cualquier Pokémon por nombre o ID.
+* **Datos Detallados:** Muestra información clave del Pokémon, como tipos, estadísticas y habilidades.
+* **Diseño Reactivo:** Experiencia de usuario optimizada para dispositivos móviles, *tablets* y escritorio.
+* **Componentes de Angular:** Estructura modular y reutilizable para un desarrollo escalable.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Tecnologías Utilizadas
 
-```bash
-ng generate --help
-```
+| Categoría | Tecnología | Descripción |
+| :--- | :--- | :--- |
+| **Frontend Framework** | **Angular** (TypeScript) | El *framework* principal para construir la aplicación. |
+| **Gráficos 3D** | **Three.js** | Biblioteca de JavaScript para renderizar gráficos 3D en el navegador. |
+| **Estilos** | **CSS / SCSS** | Estilos modernos y preprocesados. |
+| **API de Datos** | **PokeAPI** | API RESTful gratuita para obtener todos los datos de Pokémon. |
+| **Hosting** | **GitHub Pages** | Utilizado para *deploy* y acceso público a la aplicación. |
 
-## Building
+---
 
-To build the project run:
+## ⚙️ Instalación y Ejecución Local
 
-```bash
-ng build
-```
+Sigue estos pasos para obtener una copia local en funcionamiento.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Prerrequisitos
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Necesitarás tener instalado [Node.js](https://nodejs.org/) y la CLI de Angular.
 
 ```bash
-ng e2e
+# Instala la CLI de Angular globalmente si aún no la tienes
+npm install -g @angular/cli
+````
+
+### Clonación y Configuración
+
+1.  Clona el repositorio:
+
+    ```bash
+    git clone [https://github.com/alejosv07/pokeApi.git](https://github.com/alejosv07/pokeApi.git)
+    cd pokeApi
+    ```
+
+2.  Instala las dependencias del proyecto:
+
+    ```bash
+    npm install
+    ```
+
+3.  Ejecuta la aplicación localmente:
+
+    ```bash
+    ng serve
+    ```
+
+4.  Abre tu navegador y navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias algún archivo fuente.
+
+-----
+
+## 🧑‍💻 Contribución
+
+¡Las contribuciones son bienvenidas\! Si deseas mejorar el proyecto, agregar nuevas características o corregir errores, por favor:
+
+1.  Haz un *fork* del repositorio.
+2.  Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3.  Haz tus *commits* (`git commit -m 'feat: Agregando la nueva funcionalidad X'`).
+4.  Sube tu rama (`git push origin feature/nueva-funcionalidad`).
+5.  Abre un *Pull Request* (PR).
+
+-----
+
+## 📧 Contacto
+
+Desarrollado por **alejosv07**
+
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```

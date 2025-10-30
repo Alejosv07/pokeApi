@@ -85,6 +85,3 @@ npm install -g @angular/cli
 ## 📧 Contacto
 
 Desarrollado por **alejosv07**
-
-```
-```

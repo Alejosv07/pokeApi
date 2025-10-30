@@ -1,0 +1,17 @@
+.typepokemon__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.typepokemon__container__text{
+    color: white;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.typepokemon__container__text--shape{
+    background-color: yellow;
+    padding: 0.5em;
+    border-radius: 8px;
+}

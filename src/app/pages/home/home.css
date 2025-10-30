@@ -1,0 +1,83 @@
+.main {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+app-header {
+  grid-column: 2/6;
+}
+
+app-searchpokemon {
+  grid-column: 2/6;
+  grid-row: 2/3;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+
+  padding-top: 4rem;
+  grid-column: 2/6;
+  grid-row: 3/4;
+}
+
+app-footer {
+  grid-column: 2/7;
+  grid-row: 4/5;
+}
+
+app-loading{
+  max-width: 60px;
+}
+
+@media (max-width: 1024px) {
+  .card__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main {
+    grid-template-columns: 0.10fr 1fr 0.10fr;
+    grid-template-rows: auto auto 1fr auto;
+  }
+  app-header{
+    grid-column: 2 / 3;
+  }
+  app-searchpokemon {
+      grid-column: 2/3;
+    }
+    .card__container{
+    grid-column: 2/3;
+}
+app-footer {
+  grid-column: 2/3;
+}
+}
+
+
+@media (max-width: 540px) {
+  .card__container {
+    grid-template-columns: 1fr;
+  }
+  .main{
+    justify-content: center;
+  }
+}
+
+
+@keyframes animationMain {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

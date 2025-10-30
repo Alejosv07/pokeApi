@@ -1,0 +1,20 @@
+.pokemon-img{
+  max-width: inherit;
+}
+
+.pokeball-animate-loading {
+  animation-name: animation-loading;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes animation-loading {
+  from {
+      transform: rotatez(0deg);
+    }
+    to {
+      transform: rotatez(360deg);
+  }
+}

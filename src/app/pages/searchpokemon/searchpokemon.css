@@ -1,0 +1,24 @@
+.search__container{
+    display: flex;
+    padding: 1em;
+    height: 1rem;
+    border: 1px solid #7A808D;
+    border-radius: 20px;
+
+}
+
+.search__container__icon{
+    cursor: pointer;
+    max-width: 20%;
+    color: #7A808D;
+}
+
+.search__container__input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.search__container__input:focus{
+    outline: 0;
+}

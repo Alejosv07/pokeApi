@@ -1,0 +1,48 @@
+.card{
+    border-radius: 20px;
+    box-shadow: 7px 10px 19px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 10px 19px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 19px -1px rgba(0,0,0,0.75);
+    cursor: pointer;
+    max-width: 320px;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(0.9);
+}
+
+.card__figure{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+
+.card__figure__img{
+    max-width: inherit;
+}
+
+.card__id,.card__title,.card__abilities{
+    padding-left: 1rem;
+}
+
+.card__id{
+    color: #898484;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.card__title{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.card__abilities{
+    display: flex;
+    gap: 0.2em;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+}
+

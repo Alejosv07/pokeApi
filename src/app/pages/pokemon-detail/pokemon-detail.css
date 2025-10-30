@@ -1,0 +1,75 @@
+
+.return {
+  width: 30px;
+  max-width: 30px;
+  cursor: pointer;
+}
+.return > svg {
+  max-width: inherit;
+}
+.card__abilities {
+  display: flex;
+  gap: 0.2em;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+  justify-content: center;
+}
+.detail__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.detail__header--title {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em 0;
+}
+.about__stats__title {
+  color: #707f94;
+}
+.about__abilities {
+  padding: 2em 4em;
+}
+.about__abilities__title {
+  font-weight: bold;
+}
+.about__abilities--detail {
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.about__abilities__link {
+  overflow-wrap: break-word;
+}
+
+.threejsVisor {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.threejsContainer {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fullscreen {
+  width: 30px;
+  position: absolute;
+  bottom: 0.4em;
+  right: 0.2em;
+  fill: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

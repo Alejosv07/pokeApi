@@ -1,0 +1,10 @@
+<main class="main">
+    <app-header #header/>
+    <app-searchpokemon (searchEventAll)="loadFirst()" (searchEvent)="searchPokemon($event)"/>
+    <div class="card__container">
+        @for (pokemon of this.pokemonResultItem; track pokemon.id) {
+            <app-card [pokemon]="pokemon"/>
+        }
+    </div>
+    <app-footer/>
+</main>

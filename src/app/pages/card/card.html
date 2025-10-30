@@ -1,0 +1,10 @@
+<div class="card" [routerLink]="['pokemonDetail',pokemon.id]">
+    <figure class="card__figure" [style.background]="getGradientBackground()"><img src="{{pokemon.sprites.front_default}}" alt="" class="card__figure__img"></figure>
+    <p class="card__id"># {{pokemon.id}}</p>
+    <p class="card__title">{{pokemon.name}}</p>
+    <div class="card__abilities">
+        @for (item of pokemon.abilities; track item.slot) {
+            <app-typepokemon [abilityName]="item"></app-typepokemon>
+        }
+    </div>
+</div>
